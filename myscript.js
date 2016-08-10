@@ -1,16 +1,16 @@
-window.onload = setTimeout(function() { alert("Welcome to my portfolio! Click the buttons to go further down my page. Or just scroll down? What happens when you click the first 'O' of my last name??????? Scroll back to top when done? :)"); },1000);
+// window.onload = setTimeout(function() { alert("Welcome to my portfolio! Click the buttons to go further down my page. Or just scroll down? What happens when you click the first 'O' of my last name??????? Scroll back to top when done? :)"); },1000);
 
-function hoverBigger() {
-    var hovered = document.getElementById("hovering");
-    hovered.width = 576;
-    hovered.height = 324;
-}
+// function hoverBigger() {
+//     var hovered = document.getElementById("hovering");
+//     hovered.width = 576;
+//     hovered.height = 324;
+// }
 
-function hoverNorm() {
-    var hoverBye = document.getElementById("hovering");
-    hoverBye.width = 192;
-    hoverBye.height = 108;
-}
+// function hoverNorm() {
+//     var hoverBye = document.getElementById("hovering");
+//     hoverBye.width = 192;
+//     hoverBye.height = 108;
+// }
 
 function moreabout() {
     var aboutmethings = document.getElementById("aboutme");

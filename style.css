@@ -54,6 +54,9 @@ body {
 	display: block;
 }
 
+#resume {
+	font-size: 10px;
+}
 
 a:link {
 	color:#faebd7;

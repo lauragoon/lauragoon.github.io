@@ -33,6 +33,7 @@ body {
 	line-height: 26.4px;
 	/*padding-top: 200px;*/
 	height: 100vh;
+	display: block;
 }
 
 #aboutme {

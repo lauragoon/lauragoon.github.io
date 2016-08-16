@@ -10,7 +10,7 @@ body {
 	cursor: url("http://media.tumblr.com/tumblr_lqs4osv61Z1qfoi4t.png"), default;
 }
 
-#toptitle {
+/*#toptitle {
 	color: white;
 	text-align: center;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -20,7 +20,7 @@ body {
 	font-weight: 500;
 	line-height: 26.4px;
 	padding-top: 50px;
-}
+}*/
 
 #tophead {
 	color: white;
@@ -32,6 +32,7 @@ body {
 	font-weight: 500;
 	line-height: 26.4px;
 	padding-top: 200px;
+	height: 100%;
 }
 
 #aboutme {

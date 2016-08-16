@@ -1,9 +1,9 @@
 #grad {
-    background: #556270; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#556270, #FF6B6B); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#556270, #FF6B6B); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#556270, #FF6B6B); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#556270, #FF6B6B); /* Standard syntax */
+    background: #579160; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#579160, #D19269); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#579160, #D19269); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#579160, #D19269); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#579160, #D19269); /* Standard syntax */
 }
 
 body {

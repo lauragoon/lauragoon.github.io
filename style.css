@@ -33,9 +33,11 @@ body {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-	padding-top: 50vh;
-	height: 50vh;
+	padding-top: 40vh;
+	height: 60vh;
 	display:block;
+	padding-left: 30vw;
+	padding-right: 30vw;
 }
 
 #moreinfo {

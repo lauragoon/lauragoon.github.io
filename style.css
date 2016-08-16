@@ -50,7 +50,7 @@ body {
 	display:block;
 }
 
-#scratchHead {
+#moreinfo {
 	color: white;
 	text-align: center;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -59,11 +59,12 @@ body {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 30px;
-	/*padding-top: 500px;*/
-	padding-top: 30px;
+	padding-top: 50vh;
+	height: 50vh;
+	display: block;
 }
 
-#scratch {
+/*#scratch {
 	color: white;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 15px;
@@ -96,7 +97,7 @@ body {
 	font-weight: 500;
 	line-height: 26.4px;
 	padding-top: 50px;
-}
+}*/
 
 a:link {
 	color:#faebd7;

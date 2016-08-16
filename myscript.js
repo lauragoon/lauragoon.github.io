@@ -14,7 +14,7 @@
 
 function moreabout() {
     var aboutmethings = document.getElementById("content");
-    aboutmethings.innerHTML = "I'm currently a rising senior at Stuyvesant High School in NYC. blah <br><br> <center><input class='button' type='button' value='See some projects' onclick='smoothScrollTo(document.getElementById('scratchHead').offsetTop)'></center>"
+    aboutmethings.innerHTML = "I'm currently a rising senior at Stuyvesant High School in NYC. blah "
 }
 
 window.smoothScrollTo = (function () {

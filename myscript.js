@@ -1,5 +1,3 @@
-// window.onload = setTimeout(function() { alert("Welcome to my portfolio! Click the buttons to go further down my page. Or just scroll down? What happens when you click the first 'O' of my last name??????? Scroll back to top when done? :)"); },1000);
-
 // function hoverBigger() {
 //     var hovered = document.getElementById("hovering");
 //     hovered.width = 576;
@@ -14,7 +12,7 @@
 
 function moreabout() {
     var aboutmethings = document.getElementById("content");
-    aboutmethings.innerHTML = "I'm currently a rising senior at Stuyvesant High School in NYC. blah "
+    aboutmethings.innerHTML = "I'm currently a rising senior at Stuyvesant High School in NYC. After discovering computer science a couple of years ago, I grew fascinated in it and continue to pursue this passion through learning and exploring. Aside from computer science, I'm also passionate about community service, and spend a lot of time volunteering at organizations and events."
 }
 
 window.smoothScrollTo = (function () {
@@ -46,83 +44,3 @@ window.smoothScrollTo = (function () {
     return timer;
   }
 }())
-
-// window.smoothScroll = function(target) {
-//  var scrollContainer = target;
-//  do {
-//      scrollContainer = scrollContainer.parentNode;
-//      if (!scrollContainer) return;
-//      scrollContainer.scrollTop += 1;
-//  }
-//  while (scrollContainer.scrollTop == 0);;
-
-//  var targetY = 0;
-//  do {
-//      if (target == scrollContainer) break;
-//      targetY += target.offsetTop;
-//  }
-//  while (target = target.offsetParent);
-
-//  scroll = function(c,a,b,i) {
-//      i++, if (i > 30) return;
-//      c.scrollTop = a + (b-a) / 30 * i;
-//      setTimeOut(function(){scroll(c,a,b,i);}, 20);
-//  }
-//  scroll(scrollContainer,scrollContainer.scrollTop, targetY, 0)
-// }
-
-// var previousScroll = 0,
-//     headerOrgOffset = $('#header').height();
-
-// $('#header-wrap').height($('#header').height());
-
-// $(window).scroll(function () {
-//     var currentScroll = $(this).scrollTop();
-//     if (currentScroll > headerOrgOffset) {
-//         if (currentScroll > previousScroll) {
-//             $('#header-wrap').slideUp();
-//         } else {
-//             $('#header-wrap').slideDown();
-//         }
-//     } 
-//     previousScroll = currentScroll;
-// });
-
-// // Hide Header on on scroll down
-// var didScroll;
-// var lastScrollTop = 0;
-// var delta = 5;
-// var navbarHeight = $('header').outerHeight();
-
-// $(window).scroll(function(event){
-//     didScroll = true;
-// });
-
-// setInterval(function() {
-//     if (didScroll) {
-//         hasScrolled();
-//         didScroll = false;
-//     }
-// }, 250);
-
-// function hasScrolled() {
-//     var st = $(this).scrollTop();
-    
-//     // Make sure they scroll more than delta
-//     if(Math.abs(lastScrollTop - st) <= delta)
-//         return;
-    
-//     // If they scrolled down and are past the navbar, add class .nav-up.
-//     // This is necessary so you never see what is "behind" the navbar.
-//     if (st > lastScrollTop && st > navbarHeight){
-//         // Scroll Down
-//         $('header').removeClass('nav-down').addClass('nav-up');
-//     } else {
-//         // Scroll Up
-//         if(st + $(window).height() < $(document).height()) {
-//             $('header').removeClass('nav-up').addClass('nav-down');
-//         }
-//     }
-    
-//     lastScrollTop = st;
-// }

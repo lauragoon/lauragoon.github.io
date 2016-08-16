@@ -10,18 +10,6 @@ body {
 	cursor: url("http://media.tumblr.com/tumblr_lqs4osv61Z1qfoi4t.png"), default;
 }
 
-/*#toptitle {
-	color: white;
-	text-align: center;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 70px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	padding-top: 50px;
-}*/
-
 #tophead {
 	color: white;
 	text-align: center;
@@ -64,40 +52,6 @@ body {
 	display: block;
 }
 
-/*#scratch {
-	color: white;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	padding-top: 50px;
-}
-
-#pythonHead {
-	color: white;
-	text-align: center;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 40px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 30px;
-	/*padding-top: 500px;*/
-/*	padding-top: 30px;
-}*/
-
-/*#python {
-	color: white;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	padding-top: 50px;
-}*/
 
 a:link {
 	color:#faebd7;
@@ -135,105 +89,3 @@ a:active {
 	color: white;
 	background: transparent;
 }
-
-/*.container {
-	padding: 20px;
-}
-
-.sliderWrap {
-	overflow: hidden;
-	position: relative;
-	top: auto;
-}
-
-#imageSlider {
-	position: relative;
-	height: auto;
-	list-style: none;
-	overflow: hidden;
-	float: left;
-	padding: 0px;
-	margin: 0px;
-}
-
-#imageSlider li {
-	position: relative;
-	float: left;
-}
-
-.navi {
-	position: absolute;
-	top: 120px;
-	height: 50px;
-	width: 30px;
-	opacity: 0.6;
-}
-
-.navi:hover {
-	opacity: 0.9;
-}
-
-#prev {
-	background: #000;
-	url("obama1.jpg") no-repeat center;
-	right: 0px;
-}
-
-#next {
-	background: #000;
-	url("obama2.jpg") no-repeat center;
-	right: 0px;
-}*/
-
-/*body {
-    height: 1000px;
-}
-
-#header {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
-#header-wrap {
-    width: 100%;
-    position: fixed;
-    background-color: #e0e0e0;
-}*/
-
-/* .header {
-    position: fixed;
-    top: 0px;
-    left: 9px;
-    right: 9px;
-    height: 50px;
-    border: 1px dotted blue;
-    background-color: rgba(125, 125, 125, 0.5);
-} */
-
-/*body {
-    padding-top: 40px;
-}
-
-header {
-    background: #f5b335;
-    height: 40px;
-    position: fixed;
-    top: 0;
-    transition: top 0.2s ease-in-out;
-    width: 100%;
-}
-
-.nav-up {
-    top: -40px;
-}
-
-main {
-   background:url(
-data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQYV2O8dOnSfwYg0NPTYwTRuAAj0QqxmYBNM1briFaIzRbi3UiRZ75uNgUHGbfvabgfsHqGaIXYPAMAD8wgC/DOrZ4AAAAASUVORK5CYII=
-   ) repeat;
-    height: 2000px;
-}
-
-footer { background: #ddd;}
-* { color: transparent}*/

@@ -12,6 +12,8 @@ body {
 
 #logo {
 	float: left;
+	height: 5%;
+	width: auto;
 }
 
 #tophead {

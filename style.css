@@ -11,8 +11,8 @@ body {
 }
 
 #logo {
-	/*float: left;*/
-	height: 5%;
+	float: left;
+	height: 10px;
 	width: auto;
 }
 

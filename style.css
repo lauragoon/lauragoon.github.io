@@ -10,6 +10,10 @@ body {
 	cursor: url("http://media.tumblr.com/tumblr_lqs4osv61Z1qfoi4t.png"), default;
 }
 
+#logo {
+	float: left;
+}
+
 #tophead {
 	color: white;
 	text-align: center;

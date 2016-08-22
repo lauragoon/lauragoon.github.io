@@ -6,10 +6,6 @@
     background: linear-gradient(#114357, #F29492); /* Standard syntax */
 }
 
-body {
-	cursor: url("http://media.tumblr.com/tumblr_lqs4osv61Z1qfoi4t.png"), default;
-}
-
 #logo {
 	float: left;
 	position: fixed;

@@ -1,0 +1,98 @@
+#grad {
+    background: #114357; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#114357, #F29492); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#114357, #F29492); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#114357, #F29492); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#114357, #F29492); /* Standard syntax */
+}
+
+#logo {
+	float: left;
+	position: fixed;
+	padding-left: 20px;
+}
+
+#tophead {
+	color: white;
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding-top: 40vh;
+	height: 60vh;
+	display: block;
+}
+
+#aboutme {
+	color: white;
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding-top: 40vh;
+	height: 60vh;
+	display:block;
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+
+#moreinfo {
+	color: white;
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+	padding-top: 40vh;
+	height: 60vh;
+	display: block;
+}
+
+#resume {
+	font-size: 10px;
+}
+
+a:link {
+	color:#faebd7;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#faebd7;
+	text-decoration: none;
+}
+
+a:hover {
+	color:none;
+	text-decoration: none;
+}
+
+a:active {
+	color:none;
+	text-decoration: none;
+}
+
+
+
+/*#hidden {
+	color:transparent;
+}*/
+
+.button {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	width: auto;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	padding: 10px;
+	color: white;
+	background: transparent;
+}

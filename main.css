@@ -1,7 +1,6 @@
 /*.navbar { background:#F97300;}*/
 
 .navbar-brand {
-	float: left;
 	cursor: pointer;
 }
 
@@ -21,6 +20,7 @@
 }
 
 .navbar-collapse {
+	float: top;
 	justify-content: flex-end;
 }
 

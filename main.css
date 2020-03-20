@@ -1,6 +1,11 @@
 /*.navbar { background:#F97300;}*/
 
-.nav-link , .navbar-brand {
+.navbar-brand {
+	float: left;
+	cursor: pointer;
+}
+
+.nav-link {
 	color: #292929;
 	cursor: pointer;
 }

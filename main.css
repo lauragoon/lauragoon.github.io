@@ -1,5 +1,9 @@
 /*.navbar { background:#F97300;}*/
 
+.body {
+	background: #e8e8e8;
+}
+
 .brand {
 	cursor: pointer;
 }

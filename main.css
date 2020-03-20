@@ -38,6 +38,6 @@ body {
 /*header style*/
 .header {
 	position: fixed;
-	top: 50;
-	left: 30;
+	top: 170px;
+	left: 300px;
 }

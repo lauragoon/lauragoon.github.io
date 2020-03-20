@@ -5,6 +5,10 @@
 	cursor: pointer;
 }
 
+.navbar-brand {
+	height: 30em;
+}
+
 .nav-link {
 	margin-right: 1em !important;
 }
@@ -12,7 +16,7 @@
 .nav-link:hover {
 	/*background: #f4f4f4;*/
 	/*color: #f97300;*/
-	outline: 2px solid #292929;
+	outline: 2em solid #292929;
 }
 
 .navbar-collapse {

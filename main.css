@@ -37,8 +37,7 @@ body {
 
 /*header style*/
 .header {
-	background-image: url('../images/headerback.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
+	position: fixed;
+	top: 50;
+	left: 30;
 }

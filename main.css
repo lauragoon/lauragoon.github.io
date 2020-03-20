@@ -6,6 +6,7 @@ body {
 
 .brand {
 	cursor: pointer;
+	width: 170px;
 }
 
 .nav-link {

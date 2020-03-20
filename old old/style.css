@@ -1,0 +1,47 @@
+/*Rose Gold: #bd8c7d
+
+Soft Gold: #d1bfa7
+
+Silver: #8e8e90
+
+Onyx: #49494b*/
+
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #49494b;
+	color: white;
+}
+
+#header {
+	width: 100%;
+	/*position: fixed;*/
+	/*overflow: hidden;*/
+}
+
+#logo {
+	height: 150px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+#nav_bar {
+	/*position: absolute;*/
+	padding-top: 10px;
+	/*right: 0;*/
+	/*width: 15%;*/
+	float: right;
+	width: 250px;
+	word-spacing: 25px;
+}
+
+a.nav {
+	color: white;
+	font-size: 20px;
+	/*font-stretch: expanded;*/
+	text-decoration: none;
+}
+
+a.nav:hover {
+	/*text-decoration: underline;*/
+	color: #d1bfa7;
+}

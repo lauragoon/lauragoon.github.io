@@ -58,8 +58,17 @@ body {
 /* CONTACT PAGE */
 #contact-list {
 	list-style-type: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 250px;
+	width: 344px;
 }
 
 .contact-item {
 	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
 }

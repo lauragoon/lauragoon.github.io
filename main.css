@@ -95,6 +95,15 @@ body {
 
 
 /* 404 PAGE */
+#lost-div {
+	position: fixed;
+	top: 250px;
+}
+
+.lost-text {
+	text-align: center;
+}
+
 #lost-image {
-	
+	width: 800px;
 }

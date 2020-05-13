@@ -55,9 +55,8 @@ body {
 }
 
 .carousel-indicators li, .carousel-indicators li.active{
-    width: 20px;
-    height: 20px;
-    /*background-color: #fff;*/
+    width: 15px;
+    height: 15px;
     position: relative;
     margin: 10px;           
 }

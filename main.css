@@ -53,3 +53,13 @@ body {
 	height: 300px;
 	width: 650px;
 }
+
+
+/* CONTACT PAGE */
+#contact-list {
+	list-style-type: none;
+}
+
+.contact-item {
+	float: left;
+}

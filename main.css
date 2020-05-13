@@ -37,7 +37,13 @@ body {
 }
 
 /*header style*/
-.header {
+/*.header {
+	position: fixed;
+	top: 170px;
+	left: 300px;
+}*/
+
+.carousel {
 	position: fixed;
 	top: 170px;
 	left: 300px;

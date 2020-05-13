@@ -45,8 +45,11 @@ body {
 
 .carousel {
 	position: fixed;
-	top: 170px;
-	left: 50%;
+	top: 250px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 	height: 300px;
-	width: 100%;
+	width: 650px;
 }

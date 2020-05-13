@@ -58,7 +58,8 @@ body {
     width: 15px;
     height: 15px;
     position: relative;
-    margin: 10px;           
+    margin: 10px;
+    background: transparent;       
 }
 .carousel-indicators img{
     position: absolute;

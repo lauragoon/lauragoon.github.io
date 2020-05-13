@@ -97,7 +97,8 @@ body {
 /* 404 PAGE */
 #lost-div {
 	position: fixed;
-	top: 140px;
+	top: 120px;
+	width: 100%;
 }
 
 .lost-text {

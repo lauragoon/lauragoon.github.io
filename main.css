@@ -47,4 +47,6 @@ body {
 	position: fixed;
 	top: 170px;
 	left: 300px;
+	height: 300px;
+	width: 600px;
 }

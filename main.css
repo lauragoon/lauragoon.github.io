@@ -97,7 +97,11 @@ body {
 /* 404 PAGE */
 #lost-div {
 	position: fixed;
-	top: 250px;
+	top: 140px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .lost-text {

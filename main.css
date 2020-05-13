@@ -46,7 +46,7 @@ body {
 .carousel {
 	position: fixed;
 	top: 170px;
-	left: 300px;
+	left: 50%;
 	height: 300px;
-	width: 600px;
+	width: 100%;
 }

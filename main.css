@@ -74,6 +74,12 @@ body {
 	background-image: url("media/icons8-bubble-30.png");
 }*/
 
+.footer {
+	position: absolute;
+	bottom: 0;
+	font-size: 20px;
+}
+
 
 /* CONTACT PAGE */
 #contact-list {

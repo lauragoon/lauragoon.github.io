@@ -95,6 +95,10 @@ body {
 
 
 /* 404 PAGE */
+.no-bottom {
+	margin-bottom: 0;
+}
+
 #lost-div {
 	position: fixed;
 	top: 120px;

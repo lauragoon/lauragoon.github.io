@@ -40,7 +40,7 @@ body {
 	height: 100vw;
 	background-color: #CE9CB0;
 	transition: transform .3s cubic-bezier(0, .52, 0, 1);
-	overflow: scroll;
+	overflow: hidden;
 	z-index: 1000;
 }
 

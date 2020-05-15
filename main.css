@@ -11,8 +11,8 @@ body {
 
 #nav-menu {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 10px;
+	right: 15px;
 }
 
 #nav-burger {
@@ -25,7 +25,10 @@ body {
 }
 
 #nav-list {
-	position: relative;
+	position: absolute;
+	list-style: none;
+	top: 10px;
+	right: -100px;
 }
 
 .nav-item {

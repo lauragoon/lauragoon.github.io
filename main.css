@@ -10,6 +10,14 @@ body {
 	z-index: 999;
 }
 
+#top-header {
+	font-family: 'DM Mono', monospace;
+}
+
+#bottom-header {
+	font-family: 'Open Sans', sans-serif;
+}
+
 /*#nav-menu {
 	position: absolute;
 	top: 10px;
@@ -86,11 +94,11 @@ body {
 }*/
 
 /*header style*/
-/*.header {
+.header {
 	position: fixed;
 	top: 170px;
 	left: 300px;
-}*/
+}
 
 .carousel {
 	position: fixed;

@@ -43,6 +43,7 @@ body {
 	transition: transform .3s cubic-bezier(0, .52, 0, 1);
 	overflow: hidden;
 	z-index: 1000;
+	padding-top: 40px;
 }
 
 #nav-list.show {
@@ -50,8 +51,9 @@ body {
 }
 
 .nav-item {
-	font-family: 'DM Mono', monospace;
 	width: 100px;
+	font-family: 'DM Mono', monospace;
+	font-size: 50px;
 }
 
 .nav-link {

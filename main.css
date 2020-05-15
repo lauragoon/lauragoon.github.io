@@ -7,6 +7,7 @@ body {
 .brand {
 	cursor: pointer;
 	width: 170px;
+	z-index: 999;
 }
 
 /*#nav-menu {

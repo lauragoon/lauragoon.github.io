@@ -50,6 +50,7 @@ body {
 }
 
 .nav-item {
+	font-family: 'DM Mono', monospace;
 	width: 100px;
 }
 

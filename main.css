@@ -61,6 +61,10 @@ body {
 	cursor: pointer;
 }
 
+.nav-link:hover {
+	color: white;
+}
+
 /*.nav-link {
 	margin-right: 1em !important;
 	border: 1px solid transparent;

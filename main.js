@@ -11,10 +11,10 @@ $('.carousel').carousel({
 })
 
 // nav menu
-var burgerMenu = document.querySelector(#nav-burger);
+var burgerMenu = document.querySelector("#nav-burger");
 burgerMenu.addEventListener("click", showMenu, false);
 
-var menuList = document.querySelector(#nav-list);
+var menuList = document.querySelector("#nav-list");
 menuList.addEventListener("click", hideMenu, false);
 
 function showMenu(e) {

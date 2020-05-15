@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 $('.carousel').carousel({
   interval: 8000
-}
+})
 
 // nav menu
 var burgerMenu = document.querySelector(#nav-burger);

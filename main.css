@@ -9,32 +9,48 @@ body {
 	width: 170px;
 }
 
+#nav-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#nav-burger {
+	position: relative;
+}
+
+#nav-list {
+	position: relative;
+}
+
+.nav-item {
+
+}
+
 .nav-link {
 	color: #292929;
 	cursor: pointer;
 }
 
-.nav-link {
+/*.nav-link {
 	margin-right: 1em !important;
 	border: 1px solid transparent;
-}
+}*/
 
-.nav-link:hover {
-	/*background: #f4f4f4;*/
-	/*color: #f97300;*/
+/*.nav-link:hover {
 	color: #292929;
 	border: 1px solid #292929;
 	border-radius: 3px;
-}
+}*/
 
-.navbar-collapse {
+/*.navbar-collapse {
 	float: top;
 	justify-content: flex-end;
-}
+}*/
 
-.navbar-toggler {
+/*.navbar-toggler {
 	background:#fff !important;
-}
+}*/
 
 /*header style*/
 /*.header {

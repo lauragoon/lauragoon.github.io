@@ -10,20 +10,8 @@ body {
 	z-index: 999;
 }
 
-#top-header {
-	font-family: 'DM Mono', monospace;
-}
 
-#bottom-header {
-	font-family: 'Open Sans', sans-serif;
-}
-
-/*#nav-menu {
-	position: absolute;
-	top: 10px;
-	right: 15px;
-}*/
-
+/* <<NAV MENU>> */
 #nav-burger {
 	position: absolute;
 	top: 10px;
@@ -73,34 +61,24 @@ body {
 	color: white;
 }
 
-/*.nav-link {
-	margin-right: 1em !important;
-	border: 1px solid transparent;
-}*/
 
-/*.nav-link:hover {
-	color: #292929;
-	border: 1px solid #292929;
-	border-radius: 3px;
-}*/
 
-/*.navbar-collapse {
-	float: top;
-	justify-content: flex-end;
-}*/
+/* <<HEADER STYLE>> */
+#top-header {
+	font-family: 'DM Mono', monospace;
+}
 
-/*.navbar-toggler {
-	background:#fff !important;
-}*/
+#bottom-header {
+	font-family: 'Open Sans', sans-serif;
+}
 
-/*header style*/
 .header {
 	position: fixed;
 	top: 170px;
 	left: 300px;
 }
 
-.carousel {
+/*.carousel {
 	position: fixed;
 	top: 250px;
 	left: 0;
@@ -109,28 +87,30 @@ body {
 	margin-right: auto;
 	height: 300px;
 	width: 650px;
-}
+}*/
 
-.carousel-indicators li, .carousel-indicators li.active{
+/*.carousel-indicators li, .carousel-indicators li.active{
     width: 15px;
     height: 15px;
     position: relative;
     margin: 10px;
     background: transparent;       
-}
-.carousel-indicators img{
+}*/
+/*.carousel-indicators img{
     position: absolute;
     width: 100%;
     border-radius: 50%;
     height: 100%;
     top: 0;
     left: 0;            
-}
+}*/
 
 /*.carousel-indicators li {
 	background-image: url("media/icons8-bubble-30.png");
 }*/
 
+
+/* <<FOOTER>> */
 .footer {
 	position: absolute;
 	bottom: 0;
@@ -151,7 +131,7 @@ body {
 }
 
 
-/* CONTACT PAGE */
+/* === CONTACT PAGE === */
 #contact-list {
 	list-style-type: none;
 	position: fixed;
@@ -170,7 +150,7 @@ body {
 }
 
 
-/* 404 PAGE */
+/* === 404 PAGE === */
 .no-bottom {
 	margin-bottom: 0;
 }

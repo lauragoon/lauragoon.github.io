@@ -73,7 +73,7 @@ body {
 #top-header {
 	font-family: 'DM Mono', monospace;
 	font-size: 100px;
-	animation: type 4s steps(60, end);
+	animation: 2s linear 0s infinite alternate
 }
 
 @keyframes type{ 

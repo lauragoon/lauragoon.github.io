@@ -131,6 +131,10 @@ body {
 	color: gray;
 }
 
+.footer-smaller {
+	font-size: 5px;
+}
+
 
 /* === CONTACT PAGE === */
 #contact-list {

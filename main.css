@@ -64,20 +64,28 @@ body {
 
 
 /* <<HEADER STYLE>> */
-#top-header {
-	font-family: 'DM Mono', monospace;
-	font-size: 100px;
-}
-
-/*#bottom-header {
-	font-family: 'Open Sans', sans-serif;
-}*/
-
 .header {
 	position: fixed;
 	top: 190px;
 	left: 250px;
 }
+
+#top-header {
+	font-family: 'DM Mono', monospace;
+	font-size: 100px;
+	animation: type 4s steps(60, end);
+}
+
+@keyframes type{ 
+  from {
+  	width: 0;
+  } 
+} 
+
+/*#bottom-header {
+	font-family: 'Open Sans', sans-serif;
+}*/
+
 
 /*.carousel {
 	position: fixed;

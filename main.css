@@ -70,7 +70,7 @@ body {
 	left: 250px;
 }
 
-#top-header {
+.header-text {
 	font-family: 'DM Mono', monospace;
 	font-size: 100px;
 	/*animation: type 3s linear 0s 1 normal none running;*/

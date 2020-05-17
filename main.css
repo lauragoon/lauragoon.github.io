@@ -73,6 +73,7 @@ body {
 .header-text {
 	font-family: 'DM Mono', monospace;
 	font-size: 100px;
+	opacity: 0;
 	/*animation: type 3s linear 0s 1 normal none running;*/
 }
 

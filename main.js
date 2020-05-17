@@ -44,7 +44,7 @@ var charTwo = 0;
 			clearTimeout(timeOutTwo);
 		}
 
-	}, 200);
+	}, 1000);
 }());
 
 var headerThreeText = $('#header-three').text();

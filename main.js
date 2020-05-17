@@ -6,7 +6,9 @@ $(document).ready(function(){
 
 // typing header
 var headerText = $('.typing').text();
+console.log(headerText);
 var headerLength = headerText.length;
+console.log(headerLength);
 var timeOut;
 var char = 0;
 

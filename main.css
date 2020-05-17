@@ -154,12 +154,18 @@ body {
 
 #contact-items {
 	font-family: 'Open Sans', sans-serif;
-	position: absolute;
-    top: 250px;
+    font-size: 30px;
+    position: absolute;
+    top: 330px;
+    width: 370px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+}
+
+#contact-items:link {
+	color: #292929
 }
 
 

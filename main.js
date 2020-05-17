@@ -25,6 +25,9 @@ var curr = 0;
 		curr++;
 		char++;
 
+		console.log(char);
+		console.log(curr);
+
 		if (char < headerOneLength) {
 			var type = headerOneText.substring(0, curr);
 			$('#header-one').text(type);

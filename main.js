@@ -22,17 +22,17 @@ var curr = 0;
 
 (function typeWriter() {
 	timeOut = setTimeout(function() {
-		if (char == headerOneLength) {
+		if (char == headerOneLength + 1) {
 			console.log("reset after ONE");
 			curr = 0;
 		}
 
-		else if (char == headerOneLength + headerTwoLength) {
+		else if (char == headerOneLength + headerTwoLength + 1) {
 			console.log("reset after TWO");
 			curr = 0;
 		}
 
-		else if (char == headerOneLength + headerTwoLength + headerThreeText) {
+		else if (char == headerOneLength + headerTwoLength + headerThreeText + 1) {
 			console.log("reset after ONE");
 			curr = 0;
 		}

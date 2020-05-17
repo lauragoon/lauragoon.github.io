@@ -141,12 +141,29 @@ body {
 /* === CONTACT PAGE === */
 /* <<CONTACT HEADER STYLE>> */
 #contact-header {
+	font-family: 'DM Mono', sans-serif;
+    font-size: 95px;
+    width: 912px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-items {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 80px;
+	position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-#contact-list {
+/*#contact-list {
 	list-style-type: none;
 	position: fixed;
 	left: 0;
@@ -161,7 +178,7 @@ body {
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
-}
+}*/
 
 
 /* === 404 PAGE === */

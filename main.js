@@ -12,6 +12,8 @@ var charOne = 0;
 
 (function typeWriterOne() {
 	timeOutOne = setTimeout(function() {
+		document.getElementById("#header-one").style.opacity = 1;
+
 		charOne++;
 
 		var type = headerOneText.substring(0, charOne);
@@ -33,6 +35,8 @@ var charTwo = 0;
 
 (function typeWriterTwo() {
 	timeOutTwo = setTimeout(function() {
+		document.getElementById("#header-two").style.opacity = 1;
+
 		charTwo++;
 
 		var type = headerTwoText.substring(0, charTwo);
@@ -54,6 +58,8 @@ var charThree = 0;
 
 (function typeWriterThree() {
 	timeOutThree = setTimeout(function() {
+		document.getElementById("#header-three").style.opacity = 1;
+
 		charThree++;
 
 		var type = headerThreeText.substring(0, charThree);
@@ -75,6 +81,8 @@ var charFour = 0;
 
 (function typeWriterFour() {
 	timeOutFour = setTimeout(function() {
+		document.getElementById("#header-four").style.opacity = 1;
+
 		charFour++;
 
 		var type = headerFourText.substring(0, charFour);

@@ -6,70 +6,84 @@ $(document).ready(function(){
 
 // typing header
 var headerOneText = $('#header-one').text();
-// console.log(headerText);
 var headerOneLength = headerOneText.length;
-// console.log(headerLength);
+var timeOutOne;
+var charOne = 0;
+
+(function typeWriterOne() {
+	timeOutOne = setTimeout(function() {
+		charOne++;
+
+		var type = headerOneText.substring(0, charOne);
+		$('#header-one').text(type);
+		typeWriterOne();
+
+
+		if (charOne == headerOneLength) {
+			clearTimeout(timeOutOne);
+		}
+
+	}, 200);
+}());
+
 var headerTwoText = $('#header-two').text();
 var headerTwoLength = headerTwoText.length;
+var timeOutTwo;
+var charTwo = 0;
+
+(function typeWriterTwo() {
+	timeOutTwo = setTimeout(function() {
+		charTwo++;
+
+		var type = headerTwoText.substring(0, charTwo);
+		$('#header-two').text(type);
+		typeWriterTwo();
+
+
+		if (charTwo == headerTwoLength) {
+			clearTimeout(timeOutTwo);
+		}
+
+	}, 200);
+}());
+
 var headerThreeText = $('#header-three').text();
 var headerThreeLength = headerThreeText.length;
+var timeOutThree;
+var charThree = 0;
+
+(function typeWriterThree() {
+	timeOutThree = setTimeout(function() {
+		charThree++;
+
+		var type = headerThreeText.substring(0, charThree);
+		$('#header-three').text(type);
+		typeWriterThree();
+
+
+		if (charThree == headerThreeLength) {
+			clearTimeout(timeOutThree);
+		}
+
+	}, 200);
+}());
+
 var headerFourText = $('#header-four').text();
 var headerFourLength = headerFourText.length;
-var totalLength = headerOneLength + headerTwoLength + headerThreeLength + headerFourLength;
-var timeOut;
-var char = 0;
-var curr = 0;
+var timeOutFour;
+var charFour = 0;
 
-(function typeWriter() {
-	timeOut = setTimeout(function() {
-		if (char == headerOneLength + 1) {
-			console.log("reset after ONE");
-			curr = 0;
-		}
+(function typeWriterFour() {
+	timeOutFour = setTimeout(function() {
+		charFour++;
 
-		else if (char == headerOneLength + headerTwoLength + 1) {
-			console.log("reset after TWO");
-			curr = 0;
-		}
-
-		else if (char == headerOneLength + headerTwoLength + headerThreeText + 1) {
-			console.log("reset after ONE");
-			curr = 0;
-		}
-
-		curr++;
-		char++;
-
-		console.log(char);
-		console.log(curr);
-
-		if (char < headerOneLength) {
-			var type = headerOneText.substring(0, curr);
-			$('#header-one').text(type);
-			typeWriter();
-		}
-
-		else if (char < headerOneLength + headerTwoLength) {
-			var type = headerTwoText.substring(0, curr);
-			$('#header-two').text(type);
-			typeWriter();
-		}
-
-		else if (char < headerOneLength + headerTwoLength + headerThreeLength) {
-			var type = headerThreeText.substring(0, curr);
-			$('#header-three').text(type);
-			typeWriter();
-		}
-
-		else {
-			var type = headerFourText.substring(0, curr);
-			$('#header-four').text(type);
-			typeWriter();
-		}
+		var type = headerFourText.substring(0, charFour);
+		$('#header-four').text(type);
+		typeWriterFour();
 
 
-		if (char == totalLength) {
-			clearTimeout(timeOut);
+		if (charFour == headerFourLength) {
+			clearTimeout(timeOutFour);
 		}
 
 	}, 200);

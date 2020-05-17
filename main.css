@@ -63,7 +63,7 @@ body {
 
 
 
-/* <<HEADER STYLE>> */
+/* <<INDEX HEADER STYLE>> */
 .header {
 	position: fixed;
 	top: 150px;
@@ -139,6 +139,13 @@ body {
 
 
 /* === CONTACT PAGE === */
+/* <<CONTACT HEADER STYLE>> */
+#contact-header {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80px;
+}
+
+
 #contact-list {
 	list-style-type: none;
 	position: fixed;

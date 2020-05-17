@@ -5,6 +5,68 @@ $(document).ready(function(){
 })
 
 // typing header
+(function typeWriter(line_num) {
+	timeOut = setTimeout(function() {
+
+		if (line_num == 1) {
+			charOne++;
+
+			var type = headerOneText.substring(0, charOne);
+			$('#header-one').text(type);
+			typeWriter(1);
+
+
+			if (charOne == headerOneLength) {
+				clearTimeout(timeOut);
+			}
+		}
+
+
+		else if (line_num == 2) {
+			charTwo++;
+
+			var type = headerTwoText.substring(0, charTwo);
+			$('#header-two').text(type);
+			typeWriter(2);
+
+
+			if (charTwo == headerTwoLength) {
+				clearTimeout(timeOut);
+			}
+		}
+
+
+		else if (line_num == 3) {
+			charThree++;
+
+			var type = headerThreeText.substring(0, charThree);
+			$('#header-three').text(type);
+			typeWriter(3);
+
+
+			if (charThree == headerThreeLength) {
+				clearTimeout(timeOut);
+			}
+		}
+
+
+		else if (line_num == 4) {
+			charFour++;
+
+			var type = headerFourText.substring(0, charFour);
+			$('#header-four').text(type);
+			typeWriter(4);
+
+
+			if (charFour == headerFourLength) {
+				clearTimeout(timeOut);
+			}
+		}
+
+
+	}, 200);
+}());
+
 var headerOneText = $('#header-one').text();
 var headerOneLength = headerOneText.length;
 var timeOutOne;
@@ -18,8 +80,7 @@ var charOne = 0;
 
 		var type = headerOneText.substring(0, charOne);
 		$('#header-one').text(type);
-		typeWriterOne();
-
+		typeWriter(1);
 
 		if (charOne == headerOneLength) {
 			clearTimeout(timeOutOne);
@@ -41,14 +102,14 @@ var charTwo = 0;
 
 		var type = headerTwoText.substring(0, charTwo);
 		$('#header-two').text(type);
-		typeWriterTwo();
+		typeWriter(2);
 
 
 		if (charTwo == headerTwoLength) {
 			clearTimeout(timeOutTwo);
 		}
 
-	}, 2000);
+	}, 200);
 }());
 
 var headerThreeText = $('#header-three').text();
@@ -64,14 +125,14 @@ var charThree = 0;
 
 		var type = headerThreeText.substring(0, charThree);
 		$('#header-three').text(type);
-		typeWriterThree();
+		typeWriter(3);
 
 
 		if (charThree == headerThreeLength) {
 			clearTimeout(timeOutThree);
 		}
 
-	}, 3000);
+	}, 200);
 }());
 
 var headerFourText = $('#header-four').text();
@@ -87,14 +148,14 @@ var charFour = 0;
 
 		var type = headerFourText.substring(0, charFour);
 		$('#header-four').text(type);
-		typeWriterFour();
+		typeWriter(4);
 
 
 		if (charFour == headerFourLength) {
 			clearTimeout(timeOutFour);
 		}
 
-	}, 4000);
+	}, 200);
 }());
 
 // // carousel

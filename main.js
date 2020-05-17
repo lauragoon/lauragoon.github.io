@@ -22,6 +22,21 @@ var curr = 0;
 
 (function typeWriter() {
 	timeOut = setTimeout(function() {
+		if (char == headerOneLength) {
+			console.log("reset after ONE");
+			curr = 0;
+		}
+
+		else if (char == headerOneLength + headerTwoLength) {
+			console.log("reset after TWO");
+			curr = 0;
+		}
+
+		else if (char == headerOneLength + headerTwoLength + headerThreeText) {
+			console.log("reset after ONE");
+			curr = 0;
+		}
+
 		curr++;
 		char++;
 
@@ -32,30 +47,18 @@ var curr = 0;
 			var type = headerOneText.substring(0, curr);
 			$('#header-one').text(type);
 			typeWriter();
-
-			if (char == headerOneLength) {
-				curr = 0;
-			}
 		}
 
 		else if (char < headerOneLength + headerTwoLength) {
 			var type = headerTwoText.substring(0, curr);
 			$('#header-two').text(type);
 			typeWriter();
-
-			if (char == headerOneLength + headerTwoLength) {
-				curr = 0;
-			}
 		}
 
 		else if (char < headerOneLength + headerTwoLength + headerThreeLength) {
 			var type = headerThreeText.substring(0, curr);
 			$('#header-three').text(type);
 			typeWriter();
-
-			if (char == headerOneLength + headerTwoLength + headerThreeText) {
-				curr = 0;
-			}
 		}
 
 		else {

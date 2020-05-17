@@ -4,11 +4,30 @@ $(document).ready(function(){
  
 })
 
-// carousel
+// typing header
+var headerText = $('.typing').text();
+var headerLength = headerText.length;
+var timeOut;
+var char = 0;
 
-$('.carousel').carousel({
-  interval: 8000
-})
+(function typeWriter() {
+	timeOut = setTimeout(function() {
+		char++;
+		var type = text.substring(0, char);
+		$('.typing').text(type);
+		typeWriter();
+
+		if (char == headerLength) {
+			clearTimeout(timeOut);
+		}
+		
+	}, 200);
+}());
+
+// // carousel
+// $('.carousel').carousel({
+//   interval: 8000
+// })
 
 // nav menu
 var burgerMenu = document.querySelector("#nav-burger");

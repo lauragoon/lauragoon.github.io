@@ -164,7 +164,7 @@ body {
     margin-right: auto;
 }
 
-.contact-item:link {
+a.contact-item {
 	color: #292929
 }
 

@@ -5,7 +5,7 @@ $(document).ready(function(){
 })
 
 // typing header
-var headerText = $('.typing').text();
+var headerText = $('.typer').text();
 console.log(headerText);
 var headerLength = headerText.length;
 console.log(headerLength);
@@ -16,7 +16,7 @@ var char = 0;
 	timeOut = setTimeout(function() {
 		char++;
 		var type = headerText.substring(0, char);
-		$('.typing').text(type);
+		$('.typer').text(type);
 		typeWriter();
 
 		if (char == headerLength) {

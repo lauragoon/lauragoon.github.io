@@ -73,14 +73,14 @@ body {
 #top-header {
 	font-family: 'DM Mono', monospace;
 	font-size: 100px;
-	animation: type 3s linear 0s 1 normal none running;
+	/*animation: type 3s linear 0s 1 normal none running;*/
 }
 
-@keyframes type{ 
+/*@keyframes type{ 
   from {
   	width: 250px;
   } 
-} 
+} */
 
 /*#bottom-header {
 	font-family: 'Open Sans', sans-serif;

@@ -13,14 +13,14 @@ var char = 0;
 (function typeWriter() {
 	timeOut = setTimeout(function() {
 		char++;
-		var type = text.substring(0, char);
+		var type = headerText.substring(0, char);
 		$('.typing').text(type);
 		typeWriter();
 
 		if (char == headerLength) {
 			clearTimeout(timeOut);
 		}
-		
+
 	}, 200);
 }());
 

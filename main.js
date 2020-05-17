@@ -109,7 +109,7 @@ var charTwo = 0;
 			clearTimeout(timeOutTwo);
 		}
 
-	}, 200);
+	}, 1000);
 }());
 
 var headerThreeText = $('#header-three').text();
@@ -132,7 +132,7 @@ var charThree = 0;
 			clearTimeout(timeOutThree);
 		}
 
-	}, 200);
+	}, 2000);
 }());
 
 var headerFourText = $('#header-four').text();
@@ -155,7 +155,7 @@ var charFour = 0;
 			clearTimeout(timeOutFour);
 		}
 
-	}, 200);
+	}, 3000);
 }());
 
 // // carousel

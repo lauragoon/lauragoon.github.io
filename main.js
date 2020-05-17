@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 // typing header
-(function typeWriter(line_num) {
+function typeWriter(line_num) {
 	timeOut = setTimeout(function() {
 
 		if (line_num == 1) {
@@ -65,7 +65,7 @@ $(document).ready(function(){
 
 
 	}, 200);
-}());
+}
 
 var headerOneText = $('#header-one').text();
 var headerOneLength = headerOneText.length;

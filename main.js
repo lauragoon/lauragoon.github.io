@@ -2,7 +2,7 @@
 $(document).ready(function(){
  $('.header').height($(window).height());
  
-})
+});
 
 // typing header
 (function typeWriter(line_num) {

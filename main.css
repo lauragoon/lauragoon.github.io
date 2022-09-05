@@ -23,7 +23,7 @@ body {
 	max-width: 99%;
 }
 
-.navbar {
+#navbar {
 	text-align: end;
 	word-spacing: 20px;
 	padding-top: 5%;
@@ -31,14 +31,14 @@ body {
 	flex: 1;
 }
 
-.navbar a {
+#navbar a {
 	color: #D0E37F;
 	text-decoration: none;
 	font-family: 'Overpass Mono', monospace;
 	font-size: 2vw;
 }
 
-.navbar a:hover {
+#navbar a:hover {
 	color: #D1603D;
 	font-weight: 600;
 }
@@ -65,6 +65,20 @@ body {
 }
 
 #about p {
+	color: white;
+	font-family: 'Overpass Mono', monospace;
+	font-size: 3vw;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#blog {
+	display: block;
+	height: 100vh;
+	padding-top: 20%;
+}
+
+#blog p {
 	color: white;
 	font-family: 'Overpass Mono', monospace;
 	font-size: 3vw;

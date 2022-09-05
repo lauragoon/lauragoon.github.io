@@ -35,7 +35,7 @@ body {
 	color: #D0E37F;
 	text-decoration: none;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 2vw;
+	font-size: 1.8vw;
 }
 
 #navbar a:hover {
@@ -52,7 +52,7 @@ body {
 .main-container p {
 	color: white;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 3vw;
+	font-size: 2.3vw;
 	padding-left: 15%;
 	padding-right: 15%;
 }
@@ -63,6 +63,6 @@ body {
 }
 
 #home p {
-	font-size: 4.5vw;
+	font-size: 3.8vw;
 	text-align: center;
 }

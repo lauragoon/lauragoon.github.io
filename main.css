@@ -13,7 +13,7 @@ body {
 }
 
 #logo img {
-	max-width: 20%;
+	max-width: 99%;
 }
 
 .navbar {
@@ -51,7 +51,6 @@ body {
 #about {
 	display: block;
 	height: 100vh;
-	margin-top: 70%;
 }
 
 #about p {
@@ -65,7 +64,6 @@ body {
 #contact {
 	display: block;
 	height: 100vh;
-	margin-top: 70%;
 }
 
 #contact p {

@@ -28,6 +28,9 @@
             <a href="#about">About</a>
             <a href="#blog">Blog</a>
             <a href="#contact">Contact</a>
+            <button id="theme-switch" onclick="switchMode()">
+                <img src="media/lamp.png" alt="sun">
+            </button>
         </div>
     </div>
 
@@ -60,6 +63,21 @@
             Feel free to connect with me on <a href="https://www.linkedin.com/in/laura-goon/" target="_blank">LinkedIn</a>.
         </p>
     </div>
+
+    <script>
+        function switchMode()
+        {
+
+            if (document.body.backgroundColor === "rgb(34, 29, 35)")
+            {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+            else
+            {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        }
+    </script>
 
 </body>
 

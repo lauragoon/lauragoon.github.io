@@ -2,8 +2,24 @@ html {
 	scroll-behavior: smooth;
 }
 
+:root {
+    --bg-color: #221D23;
+	--bg-transparent-color: rgba(34, 29, 35, 0);
+	--header-color: #D0E37F;
+    --hover-color: #D1603D;
+    --font-color: white;
+}
+
+[data-theme="light"] {
+    --bg-color: #F2E8CF;
+	--bg-transparent-color: rgba(242, 232, 207, 0);
+	--header-color: #386641;
+    --hover-color: #BC4749;
+    --font-color: #221D23;
+}
+
 body {
-	background-color: #221D23;
+	background-color: var(--bg-color);
 }
 
 #header {
@@ -12,7 +28,7 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: linear-gradient(rgba(34, 29, 35, 100), 90%, rgba(34, 29, 35, 0));
+	background: linear-gradient(var(--bg-color), 90%, var(--bg-transparent-color));
 }
 
 #logo {
@@ -33,15 +49,29 @@ body {
 }
 
 #navbar a {
-	color: #D0E37F;
+	color: var(--header-color);
 	text-decoration: none;
 	font-family: 'Overpass Mono', monospace;
 	font-size: 1.3vw;
 }
 
 #navbar a:hover {
-	color: #D1603D;
+	color: var(--hover-color);
 	font-weight: 600;
+}
+
+#navbar button {
+	border: none;
+	background-color: var(--bg-color);
+}
+
+#navbar button:hover {
+	cursor: pointer;
+}
+
+#navbar button img {
+	height: 3vw;
+	width: auto;
 }
 
 .main-container {
@@ -51,7 +81,7 @@ body {
 }
 
 .main-container p {
-	color: white;
+	color: var(--font-color);
 	font-family: 'Overpass Mono', monospace;
 	font-size: 2vw;
 	padding-left: 15%;
@@ -74,7 +104,7 @@ body {
 }
 
 .blog-container * {
-	color: white;
+	color: var(--font-color);
 	font-family: 'Roboto', sans-serif;
 	font-size: 1vw;
 	font-weight: 300;
@@ -83,7 +113,7 @@ body {
 }
 
 .blog-container .blog-container-date {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid var(--font-color);
 	font-family: 'Overpass Mono', monospace;
 }
 
@@ -105,7 +135,7 @@ body {
 .blog-container .blog-container-quote {
 	margin-left: 15%;
 	padding-left: 2%;
-	border-left: 0.5px solid white;
+	border-left: 0.5px solid var(--font-color);
 	font-style: italic;
 	font-weight: 100;
 }

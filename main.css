@@ -43,59 +43,25 @@ body {
 	font-weight: 600;
 }
 
-#home {
+.main-container {
 	display: block;
 	height: 100vh;
+	padding-top: 20%;
+}
+
+.main-container p {
+	color: white;
+	font-family: 'Overpass Mono', monospace;
+	font-size: 3vw;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#home {
 	margin-top: 30%;
 }
 
 #home p {
-	color: white;
-	font-family: 'Overpass Mono', monospace;
 	font-size: 4.5vw;
 	text-align: center;
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-#about {
-	display: block;
-	height: 100vh;
-	padding-top: 20%;
-}
-
-#about p {
-	color: white;
-	font-family: 'Overpass Mono', monospace;
-	font-size: 3vw;
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-#blog {
-	display: block;
-	height: 100vh;
-	padding-top: 20%;
-}
-
-#blog p {
-	color: white;
-	font-family: 'Overpass Mono', monospace;
-	font-size: 3vw;
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-#contact {
-	display: block;
-	height: 100vh;
-	padding-top: 20%;
-}
-
-#contact p {
-	color: white;
-	font-family: 'Overpass Mono', monospace;
-	font-size: 3vw;
-	padding-left: 15%;
-	padding-right: 15%;
 }

@@ -33,6 +33,7 @@ body {
 
 #home {
 	display: block;
+	margin-top: 15%;
 }
 
 #home p {
@@ -40,5 +41,16 @@ body {
 	font-family: 'Overpass Mono', monospace;
 	font-size: 220%;
 	text-align: center;
-	margin-top: 15%;
+}
+
+#about {
+	display: block;
+	margin-top: 70%;
+}
+
+#about p {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 180%;
+	padding-left: 10%;
+	padding-right: 10%;
 }

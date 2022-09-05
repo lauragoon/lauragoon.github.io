@@ -1,26 +1,28 @@
 body {
 	background-color: #221D23;
+	scroll-behavior: smooth;
 }
 
 #header {
-	display: flex;
+	display: block;
 }
 
 #logo {
 	position: fixed;
-	flex: 1;
+	max-width: 20%;
+	/* flex: 1; */
 }
 
-#logo img {
+/* #logo img {
 	max-width: 20%;
-}
+} */
 
 .navbar {
 	text-align: end;
 	word-spacing: 20px;
 	padding-top: 5%;
 	padding-right: 3%;
-	flex: 1;
+	/* flex: 1; */
 }
 
 .navbar a {

@@ -1,14 +1,17 @@
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
-if (currentTheme)
+function getDefaultMode()
 {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    document.getElementById('logo-img').src = "media/logo-for-".concat(currentTheme).concat(".png");
-    document.getElementById('theme-switch-img-default').src = "media/lamp-for-".concat(currentTheme).concat(".png");
-    document.getElementById('theme-switch-img-hover').src = "media/lamp-for-".concat(currentTheme).concat("-hover.png");
+    if (currentTheme)
+    {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        document.getElementById('logo-img').src = "media/logo-for-".concat(currentTheme).concat(".png");
+        document.getElementById('theme-switch-img-default').src = "media/lamp-for-".concat(currentTheme).concat(".png");
+        document.getElementById('theme-switch-img-hover').src = "media/lamp-for-".concat(currentTheme).concat("-hover.png");
+    }
 }
 
-
+window.onload = getDefaultMode; // switch to default theme mode
 
 function switchMode()
 {

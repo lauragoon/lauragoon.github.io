@@ -15,7 +15,7 @@ body {
 }
 
 #logo {
-	max-width: 20%;
+	max-width: 15%;
 	flex: 1;
 }
 
@@ -35,7 +35,7 @@ body {
 	color: #D0E37F;
 	text-decoration: none;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 150%;
+	font-size: 2vw;
 }
 
 .navbar a:hover {
@@ -46,40 +46,42 @@ body {
 #home {
 	display: block;
 	height: 100vh;
-	margin-top: 50%;
+	margin-top: 30%;
 }
 
 #home p {
 	color: white;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 220%;
+	font-size: 4.5vw;
 	text-align: center;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 #about {
 	display: block;
 	height: 100vh;
+	padding-top: 20%;
 }
 
 #about p {
 	color: white;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 180%;
-	padding-left: 20%;
-	padding-right: 20%;
+	font-size: 3vw;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 #contact {
 	display: block;
 	height: 100vh;
+	padding-top: 20%;
 }
 
 #contact p {
 	color: white;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 180%;
-	padding-left: 20%;
-	padding-right: 20%;
+	font-size: 3vw;
+	padding-left: 15%;
+	padding-right: 15%;
 }

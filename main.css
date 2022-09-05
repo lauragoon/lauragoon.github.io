@@ -74,6 +74,14 @@ body {
 	width: auto;
 }
 
+#navbar #theme-switch-img-hover, #theme-switch:hover #theme-switch-img-default {
+	display: none;
+ }
+
+#navbar #theme-switch-img-default, #theme-switch:hover #theme-switch-img-hover {
+	display: block;
+ }
+
 .main-container {
 	display: block;
 	height: 100vh;

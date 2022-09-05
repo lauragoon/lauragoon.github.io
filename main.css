@@ -52,6 +52,7 @@ body {
 }
 
 #about p {
+	color: white;
 	font-family: 'Overpass Mono', monospace;
 	font-size: 180%;
 	padding-left: 10%;
@@ -64,6 +65,7 @@ body {
 }
 
 #contact p {
+	color: white;
 	font-family: 'Overpass Mono', monospace;
 	font-size: 180%;
 	padding-left: 10%;

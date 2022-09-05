@@ -54,3 +54,15 @@ body {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
+#contact {
+	display: block;
+	margin-top: 70%;
+}
+
+#contact p {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 180%;
+	padding-left: 10%;
+	padding-right: 10%;
+}

@@ -1,7 +1,7 @@
 function switchMode()
 {
 
-    if (document.body.backgroundColor === "rgb(34, 29, 35)")
+    if (window.getComputedStyle(document.body).backgroundColor === "rgb(34, 29, 35)")
     {
         document.documentElement.setAttribute('data-theme', 'light');
     }

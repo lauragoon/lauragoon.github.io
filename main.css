@@ -166,3 +166,14 @@ a:visited {
 	padding-left: 1%;
 	padding-right: 0%;
 }
+
+.blog-container figure {
+	text-align: center;
+	font-size: 0.5vw;
+}
+
+.blog-container figure img {
+	display: inline-block;
+	height: 9vw;
+	width: auto;
+}

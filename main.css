@@ -22,6 +22,20 @@ body {
 	background-color: var(--bg-color);
 }
 
+a {
+	color: var(--header-color);
+}
+
+a:hover {
+	color: var(--hover-color);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--header-color);
+}
+
 #header {
 	display: flex;
 	position: fixed;

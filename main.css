@@ -12,6 +12,7 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
+	background: linear-gradient(rgba(34, 29, 35, 100), 90%, rgba(34, 29, 35, 0));
 }
 
 #logo {
@@ -26,8 +27,6 @@ body {
 #navbar {
 	text-align: end;
 	word-spacing: 20px;
-	height: 5vh;
-	background: linear-gradient(rgba(34, 29, 35, 100), 90%, rgba(34, 29, 35, 0));
 	padding-top: 3%;
 	padding-right: 5%;
 	flex: 1;

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +22,17 @@
 
     <div id="header">
         <div id="logo">
-            <a href="index.html#"><img src="media/logo_green.png" alt="Laura Goon logo"></a>
+            <a href="#"><img id="logo-img" src="media/logo-for-dark.png" alt="Laura Goon logo"></a>
         </div>
         <div id="navbar">
-            <a href="index.html#">Home</a>
-            <a href="index.html#about">About</a>
-            <a href="index.html#blog">Blog</a>
-            <a href="index.html#contact">Contact</a>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-switch" onclick="switchMode()">
+                <img id="theme-switch-img-hover" src="media/lamp-for-dark-hover.png" alt="lamp" />
+                <img id="theme-switch-img-default" src="media/lamp-for-dark.png" alt="lamp" />
+            </button>
         </div>
     </div>
 

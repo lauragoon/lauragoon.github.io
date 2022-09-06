@@ -46,7 +46,7 @@ a:visited {
 }
 
 #logo {
-	max-width: 10%;
+	max-width: 19vh;
 	flex: 1;
 }
 
@@ -133,7 +133,7 @@ a:visited {
 }
 
 .blog-container.top-post {
-	margin-top: 1vh;
+	margin-top: 13.5vh;
 }
 
 .blog-container.bottom-post {

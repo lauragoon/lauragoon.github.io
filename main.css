@@ -132,11 +132,11 @@ a:visited {
 	padding-right: 15%;
 }
 
-.blog-container .top-post {
+.blog-container.top-post {
 	margin-top: 12.5%;
 }
 
-.blog-container .bottom-post {
+.blog-container.bottom-post {
 	margin-bottom: 6%;
 }
 

@@ -123,9 +123,6 @@ a:visited {
 .blog-container {
 	display: block;
 	margin-top: 20%;
-}
-
-.blog-container {
 	color: var(--font-color);
 	font-family: 'Roboto', sans-serif;
 	font-size: 1vw;
@@ -133,6 +130,14 @@ a:visited {
 	padding-top: 13vh;
 	padding-left: 15%;
 	padding-right: 15%;
+}
+
+.blog-container .top-post {
+	margin-top: 12.5%;
+}
+
+.blog-container .bottom-post {
+	margin-bottom: 6%;
 }
 
 .blog-container .blog-container-date {

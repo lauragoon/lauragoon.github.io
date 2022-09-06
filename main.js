@@ -11,8 +11,6 @@ function getDefaultMode()
     }
 }
 
-window.onload = getDefaultMode; // switch to default theme mode
-
 function switchMode()
 {
 
@@ -33,3 +31,6 @@ function switchMode()
         localStorage.setItem('theme', 'dark');
     }
 }
+
+// switch to default theme mode
+window.onload = getDefaultMode;
